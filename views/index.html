@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DownTheRoad</title>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h1>Good Driving Roads</h1>
-    <ul>
-        {{#each roads}}
-            <li>{{name}} - {{location}}</li>
-        {{/each}}
-    </ul>
+    <h1>Welcome to Down The Road</h1>
+    <p>Find the best driving roads near you.</p>
+
+    <div id="map"></div>
 </body>
 </html>
