@@ -11,7 +11,7 @@ const pool = new Pool({
     connectionString: process.env.DATABASE_URL, // Use Vercel's env var
     ssl: { rejectUnauthorized: false } // Required for Neon
 });
-
+// AH
 // Configure Handlebars
 app.engine("html", engine({ extname: ".html", defaultLayout: false }));
 app.set("view engine", "html");
